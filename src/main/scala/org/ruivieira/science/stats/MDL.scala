@@ -6,4 +6,5 @@ object MDL {
 
   def barrier(data: Seq[Int], value: Int): Int = data.filter(_ > value).head
 
+
 }
